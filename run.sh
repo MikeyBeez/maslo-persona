@@ -8,4 +8,4 @@
 # container.   That way, if you run roscore inside the container,
 # and you can `rostopic list` outside of it!
 docker run --name="myhead" \
-    -p 11311:11311 -it myhead
+    -p 8080:8080 -it myhead
