@@ -1,6 +1,6 @@
 # To build:
 # docker build -t myhead .
-FROM ubuntu18.04
+FROM ubuntu:18.04
 MAINTAINER Mike Bee mbonsign@gmail.com
 
 ENV DEBIAN_FRONTEND=noninteractive
